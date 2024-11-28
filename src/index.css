@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Syne:wght@400..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Bricolage Grotesque", sans-serif;
+
+}
+.container{
+    max-width: 1300px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+.main{
+    background-color: #c2bdda;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+}

@@ -1,0 +1,97 @@
+.project-right-box{
+    background-color: white;
+    border-radius: 17px;
+    width: 850px;
+    padding: 25px 40px;
+    min-height: 79.5vh;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.project{
+    display: flex;
+    gap: 40px;
+}
+.project-me{
+    max-height: 79.5vh;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.project-right-box > h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+.project-right-box > p{
+    color: #576076;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.project-box{
+    width: 348px;
+    height: 278px;
+    overflow: hidden;
+    border-radius: 15px;
+
+}
+.project-box > img{
+    width: 100%;
+    height: 70%;
+    border-radius: 15px;
+    cursor: pointer;
+    object-fit: cover;
+}
+.project-box > img:hover{
+    transform: scale(1.05);
+    transition: all ease .5s;
+}
+.project-box h1{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 5px;
+    color: #000;
+}
+.project-box p{
+    font-size: 14px;
+    color: #576076;
+}
+.projects-loyiha{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:1024px){
+    .project{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+    .project-right-box{
+        width: 100%;
+    }
+}
+@media  screen and (max-width:412px) {
+    .project-box{
+        width: 95%;
+    }
+   
+    .project-right-box > p{
+        color: #576076;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .project-me .social-medias{
+        margin-top: 15px;
+    }
+    .project-right-box >h1{
+        font-size: 25px;
+    }
+}

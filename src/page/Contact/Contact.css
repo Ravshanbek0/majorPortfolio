@@ -1,0 +1,30 @@
+.contact{
+    display: flex;
+    gap: 30px;
+}
+.conatxt p span{
+    color: #000;
+    font-weight: bolder;
+}
+.contacts-boxes{
+    margin-top: 20px;
+}
+.contacts-box{
+    width: 165px;
+    height: 144px;
+    background-color: #f0f2f5;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contacts-box a{
+    width: 145px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 124px;
+    font-size: 34px;
+    color: #000;
+}
