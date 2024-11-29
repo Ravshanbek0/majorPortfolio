@@ -78,13 +78,18 @@
         height: auto;
         width: 100%;
     }
+    .project-me{
+        height: auto;
+    }
 }
 @media  screen and (max-width:412px) {
     .project-box{
         height: auto;
         width: 95%;
     }
-   
+    .project-me{
+        height: auto;
+    }
     .project-right-box > p{
         color: #576076;
         font-size: 14px;
