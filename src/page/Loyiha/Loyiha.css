@@ -90,6 +90,18 @@
         height: auto;
         width: 95%;
     }
+    .loyiha-box {
+        width: 90%;
+        height: 184px;
+        background-color: #f0f2f5;
+        border-radius: 10px;
+        display: flex
+    ;
+    margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
     .project-me{
         max-height: fit-content;
         height: auto !important;
