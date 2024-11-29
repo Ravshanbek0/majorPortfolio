@@ -292,7 +292,6 @@
             margin: 0 auto;
             display: flex;
             justify-content: space-between;
-            gap: 5px;
         }
     }
 }

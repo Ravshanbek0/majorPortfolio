@@ -1,6 +1,7 @@
 .home {
     display: flex;
-    justify-content: space-between;
+        height: auto;
+        justify-content: space-between;
 }
 
 .home h1 {
@@ -11,7 +12,8 @@
     background-color: white;
     border-radius: 17px;
     width: 415px;
-    padding: 25px 20px;
+        height: auto;
+        padding: 25px 20px;
 
 }
 
@@ -242,6 +244,7 @@
     }
     .home-box {
         background-color: white;
+        height: auto;
         border-radius: 17px;
         width: 100%;
         padding: 25px 20px;
@@ -252,8 +255,8 @@
         width: 100%;
     }
     .exp-box {
-        height: 36.5vh;
         background-color: white;
+        height: auto;
         width: 100%;
         border-radius: 17px;
         /* padding: 25px 20px; */
@@ -277,6 +280,7 @@
     }
     .tech-boxes {
         display: flex;
+        height: auto;
         flex-direction: column;
         align-items: center;
         padding: 0 8px;
@@ -296,18 +300,21 @@
         flex-direction: column;
         align-items: center;
         padding: 0 5px;
+        height: auto;
         justify-content: center;
     }
     .exp-box {
         height: 36.5vh;
         background-color: white;
         width: 410px;
+        height: auto;
         border-radius: 17px;
         padding: 25px 10px;
         overflow: hidden;
     }
     .tech-stack {
         display: flex;
+        height: auto;
         flex-wrap: wrap;
         gap: 5px;
         margin-top: 25px;
